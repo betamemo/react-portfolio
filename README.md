@@ -1,4 +1,10 @@
-# React + Vite
+# React Portfolio
+
+**Course:** [พัฒนาเว็บ React Portfolio ตั้งแต่เริ่มต้นจนขึ้น Deploy](https://learn.futureskill.co/learning/course/846)
+
+> **Disclaimer:** This is a hands-on learning project built by following the instructor's guidelines to practice Flutter. It is not an original production-ready system designed by me.
+
+## React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
