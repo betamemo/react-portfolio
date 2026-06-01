@@ -1,8 +1,11 @@
 # React Portfolio
 
-**Course:** [พัฒนาเว็บ React Portfolio ตั้งแต่เริ่มต้นจนขึ้น Deploy](https://learn.futureskill.co/learning/course/846)
+- **Course:** [พัฒนาเว็บ React Portfolio ตั้งแต่เริ่มต้นจนขึ้น Deploy](https://learn.futureskill.co/learning/course/846)
+- **Icons:** https://react-icons.github.io/react-icons
+- **Color:** https://htmlcolorcodes.com/color-wheel
+- **Image:** https://unsplash.com/photos/a-woman-sitting-on-a-couch-using-a-laptop-computer-SNQJ7L1OAIM
 
-> **Disclaimer:** This is a hands-on learning project built by following the instructor's guidelines to practice Flutter. It is not an original production-ready system designed by me.
+> **Disclaimer:** This is a hands-on learning project built by following the instructor's guidelines to practice. It is not an original production-ready system designed by me.
 
 ## React + Vite
 

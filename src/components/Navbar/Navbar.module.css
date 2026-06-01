@@ -1,5 +1,5 @@
 nav {
-    background-color: #3069F8;
+    background-color: #0077b5;
 
     & a {
         color: white;
@@ -37,7 +37,7 @@ nav {
 
             & a {
                 text-decoration: none;
-               
+
             }
         }
     }
@@ -58,10 +58,9 @@ nav {
         }
 
         & a {
-            color: #3069F8;
+            color: #0077b5;
             text-decoration: none;
             font-weight: bold;
         }
     }
-
 }
