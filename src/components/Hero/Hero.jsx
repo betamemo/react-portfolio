@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './Hero.module.css'
 import { ImGithub, ImLinkedin as ImLinkedin2 } from "react-icons/im";
+import { TbBrandLinkedinFilled, TbBrandGithubFilled, TbGhost2Filled } from "react-icons/tb";
 
 function Hero() {
     return (
@@ -14,8 +15,9 @@ function Hero() {
                         <p className={styles.text_4}>I love creating beautiful and functional web applications.</p>
 
                         <ul className={styles.hero_links}>
-                            <li><a href="https://github.com" target="_blank"><ImGithub /></a></li>
-                            <li><a href="https://linkedin.com" target="_blank" ><ImLinkedin2 /></a></li>
+                            <li><a href="https://linkedin.com" target="_blank" ><TbBrandLinkedinFilled /></a></li>
+                            <li><a href="https://github.com" target="_blank"><TbBrandGithubFilled /></a></li>
+                            <li><a href="https://google.com" target="_blank" ><TbGhost2Filled /></a></li>
                         </ul>
                     </div>
 
