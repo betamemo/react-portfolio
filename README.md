@@ -4,6 +4,7 @@
 - **Icons:** https://react-icons.github.io/react-icons
 - **Color:** https://htmlcolorcodes.com/color-wheel
 - **Image:** https://unsplash.com/photos/a-woman-sitting-on-a-couch-using-a-laptop-computer-SNQJ7L1OAIM
+- **Image:** https://unsplash.com/photos/a-computer-screen-with-a-bunch-of-code-on-it-ieic5Tq8YMk
 
 > **Disclaimer:** This is a hands-on learning project built by following the instructor's guidelines to practice. It is not an original production-ready system designed by me.
 
