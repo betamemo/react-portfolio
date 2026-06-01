@@ -7,7 +7,7 @@ function Hero() {
     return (
         <div className={styles.wrapper}>
             <div className={styles.container}>
-                <div className={styles.hero_content}>
+                <div className={styles.hero_container}>
                     <div className={styles.hero_info}>
                         <p className={styles.text_1}>Hello! It's me.</p>
                         <h3 className={styles.text_2}>Jane Doe</h3>
