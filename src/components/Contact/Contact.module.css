@@ -1,5 +1,5 @@
 .contact_wrapper {
-    height: 500px;
+    height: 460px;
     background-color: #0077b5;
     color: #fff;
     overflow: hidden;
@@ -80,6 +80,32 @@
                     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
                 }
 
+            }
+        }
+    }
+}
+
+@media screen and (max-width:480px) {
+    .contact_wrapper {
+        height: auto;
+
+        & .contact_container {
+            flex-direction: column;
+
+            & .contact_info,
+            & .contact_form {
+                width: 100%;
+                padding: 20px;
+            }
+
+            & .contact_form {
+                & input {
+                    width: 100% !important;
+                }
+
+                & .contact_group {
+                    flex-direction: column;
+                }
             }
         }
     }

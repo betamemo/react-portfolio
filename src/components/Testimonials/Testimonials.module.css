@@ -42,3 +42,19 @@
         }
     }
 }
+
+@media screen and (max-width:480px) {
+    .testi_container {
+        height: auto;
+
+        & .testi_list {
+            flex-direction: column;
+
+            & .testi_item {
+                width: 100%;
+                margin: 0;
+                padding: 30px;
+            }
+        }
+    }
+}
