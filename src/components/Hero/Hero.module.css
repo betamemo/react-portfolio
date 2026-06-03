@@ -1,9 +1,9 @@
-& .wrapper {
+.wrapper {
     height: 500px;
     overflow: hidden;
 
     & .container {
-        max-width: 1170px;
+        max-width: 1200px;
         margin: 0 auto;
     }
 
@@ -41,8 +41,8 @@
                 margin-right: 10px;
 
                 & svg {
-                    width: 24px;
-                    height: 24px;
+                    width: 40px;
+                    height: 40px;
                     color: #0077b5;
                 }
             }
