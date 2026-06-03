@@ -1,11 +1,18 @@
 nav {
     background-color: #0077b5;
+    overflow: hidden;
+    position: relative;
 
     & a {
         color: white;
         text-decoration: none;
-        font-size: 1.2rem;
-        margin: 0 1rem;
+    }
+
+    .menu {
+        position: absolute;
+        top: 25px;
+        right: 25px;
+        color: white;
     }
 
     & .container {
@@ -13,54 +20,105 @@ nav {
         margin: 0 auto;
     }
 
-    & .navbar {
+    & .nav_container {
         height: 60px;
         display: flex;
         justify-content: space-between;
         align-items: center;
+
+        & .logo {
+
+            & a {
+                font-weight: bold;
+            }
+        }
+
+        & ul {
+            display: flex;
+            list-style: none;
+
+            & li {
+                margin: 0 35px;
+            }
+        }
+
+        & .button {
+            width: 100px;
+            height: 35px;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 20px;
+            transition: 0.2s;
+            cursor: pointer;
+
+            &:hover {
+                box-shadow: 0 0 20px 0px rgb(0, 0, 0, 0.2);
+            }
+
+            & a {
+                color: #0077b5;
+            }
+        }
     }
+}
 
-    & .logo {
-        & a {
-            text-decoration: none;
-            font-weight: bold;
+@media screen and (max-width: 480px) {
+    .nav_container {
+        flex-direction: column;
+        height: auto !important;
+        margin: 50px 0;
+        align-items: start !important;
+        margin: 30px;
 
+        & ul,
+        .button {
+            display: none !important;
         }
     }
 
-    & ul {
+    .mobile_menu {
         list-style: none;
-        display: flex;
 
         & li {
-            margin: 0 1rem;
+            margin: 35px;
 
             & a {
                 text-decoration: none;
-
             }
         }
     }
 
-    & .button {
+    & .mobile_button {
         width: 100px;
-        height: 40px;
-        background-color: #fff;
+        height: 35px;
+        background-color: white;
         display: flex;
         justify-content: center;
         align-items: center;
         border-radius: 20px;
-        transition: 0.3s;
+        transition: 0.2s;
         cursor: pointer;
+        margin-left: 35px;
+        margin-bottom: 20px;
 
         &:hover {
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 0 20px 0px rgb(0, 0, 0, 0.2);
         }
 
         & a {
             color: #0077b5;
-            text-decoration: none;
-            font-weight: bold;
         }
     }
+}
+
+@media screen and (min-width: 481px) {
+
+    .menu,
+    .mobile_menu,
+    .mobile_button {
+        display: none;
+    }
+
 }
