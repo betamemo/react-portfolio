@@ -9,6 +9,8 @@ import Hero from './components/Hero/Hero'
 import Skills from './components/Skills/Skills'
 import Services from './components/Services/Services'
 import Projects from './components/Projects/Projects'
+import Contact from './components/Contact/Contact'
+import Footer from './components/Footer/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,6 +22,8 @@ function App() {
       <Skills />
       <Services />
       <Projects />
+      <Contact />
+      <Footer />
     </>
   )
 }
