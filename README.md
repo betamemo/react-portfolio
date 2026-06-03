@@ -1,7 +1,7 @@
 # React Portfolio
 
 - **Course:** [พัฒนาเว็บ React Portfolio ตั้งแต่เริ่มต้นจนขึ้น Deploy](https://learn.futureskill.co/learning/course/846)
-- **Icons:** https://react-icons.github.io/react-icons
+- **Icons:** https://react-icons.github.io/react-icons/icons/tb/
 - **Image:** https://unsplash.com/photos/a-woman-sitting-on-a-couch-using-a-laptop-computer-SNQJ7L1OAIM
 - **Image:** https://unsplash.com/photos/a-computer-screen-with-a-bunch-of-code-on-it-ieic5Tq8YMk
 - **Image:** https://unsplash.com/photos/a-young-girl-with-long-hair-wearing-a-white-t-shirt-HaNi1rsZ6Nc

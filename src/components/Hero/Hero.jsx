@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from './Hero.module.css'
-import { ImGithub, ImLinkedin as ImLinkedin2 } from "react-icons/im";
 import { TbBrandLinkedinFilled, TbBrandGithubFilled, TbGhost2Filled } from "react-icons/tb";
 
 function Hero() {
